@@ -31,6 +31,7 @@ int main()
     else
     {
         std::cout << "Ihre Eingabe war nicht korrekt" << std::endl;
+        return -1;
     }
 
     for (int i = 0; i < word.length(); i++)
@@ -72,4 +73,5 @@ int main()
         std::cout << output << "\n\n============== GAME OVER =============\n\nDas Wort lautete: " << word << std::endl;
         system("pause");
     }
+    return 0;
 }
