@@ -28,6 +28,10 @@ int main()
         srand(time(0));
         word = requirements[(rand() % 10) + 1];
     }
+    else
+    {
+        std::cout << "Ihre Eingabe war nicht korrekt" << std::endl;
+    }
 
     for (int i = 0; i < word.length(); i++)
     {
